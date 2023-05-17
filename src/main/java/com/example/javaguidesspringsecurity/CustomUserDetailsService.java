@@ -1,4 +1,4 @@
 package com.example.javaguidesspringsecurity;
 
-public class CustomUserDetailsService implements UserDetailsService {
+public class CustomUserDetailsService {
 }
