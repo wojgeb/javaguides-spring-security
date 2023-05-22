@@ -170,4 +170,7 @@ public class UserRepository implements JpaRepository<User, Long> {
     public Page<User> findAll(Pageable pageable) {
         return null;
     }
+
+    public Optional<Object> findByUsernameOrEmail(String usernameOrEmail, String usernameOrEmail1) {
+    }
 }
